@@ -1,3 +1,25 @@
+import java.util.Scanner;
+
 public class Simplecal{
-        Public static void main(String[] args)
+        public static void main(String[] args)
+        {
+        
+        System.out.print("Enter the numeric value: ");
+        Scanner sn=new Scanner(System.in);
+        String s1=sn.nextLine();
+        double d1=Double.parseDouble(s1);
+        
+        System.out.print("Enter the numeric value: ");
+        String s2=sn.nextLine();
+        double d2=Double.parseDouble(s2);
+         
+        double d3=d1+d2;
+         
+        System.out.println("The answer is: "+d3);
+        }
+  }
+        
+        
+        
+        
         
